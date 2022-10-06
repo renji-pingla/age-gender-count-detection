@@ -1,0 +1,13 @@
+ # Install opencv
+ 
+ pip install opencv-python
+
+# Install flask
+
+pip install Flask
+
+# To run the application
+
+flask --app index run
+
+
