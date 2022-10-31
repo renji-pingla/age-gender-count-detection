@@ -47,6 +47,8 @@ gender=[]
 age=[]
 detected_faces= ""
 def getDetector():
+    global vid
+    vid = cv2.VideoCapture(0)
     global gender
     global age
     global detected_faces
@@ -101,4 +103,5 @@ def closeDector():
 
 
       
-    
+
+               
